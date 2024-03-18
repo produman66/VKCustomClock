@@ -24,7 +24,6 @@ class ClockCustom @JvmOverloads constructor(
 
     companion object {
         //dial settings
-        private const val DEFAULT_CLOCK_RADIUS = 200f
         private const val DEFAULT_SIZE_IN_DP = 200
         private const val DEFAULT_CLOCK_COLOR = Color.WHITE
 
@@ -90,9 +89,6 @@ class ClockCustom @JvmOverloads constructor(
         val typedArray =
             context.obtainStyledAttributes(attrs, R.styleable.ClockCustom, defStyleAttr, 0)
         try {
-
-            clockRadius =
-                typedArray.getDimension(R.styleable.ClockCustom_clockRadius, DEFAULT_CLOCK_RADIUS)
 
             clockColor =
                 typedArray.getColor(R.styleable.ClockCustom_clockColor, DEFAULT_CLOCK_COLOR)
