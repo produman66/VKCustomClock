@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/firstPresentationFragment">
+
+    <fragment
+        android:id="@+id/firstPresentationFragment"
+        android:name="com.example.customclockview.fragments.FirstPresentationFragment"
+        android:label="FirstPresentationFragment"
+        tools:layout="@layout/fragment_first_presentation">
+    </fragment>
+    <fragment
+        android:id="@+id/secondPresentationFragment"
+        android:name="com.example.customclockview.fragments.SecondPresentationFragment"
+        android:label="SecondPresentationFragment" >
+    </fragment>
+</navigation>

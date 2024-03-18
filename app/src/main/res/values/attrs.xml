@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockCustom">
+        <attr name="clockRadius" format="dimension" />
+        <attr name="clockColor" format="color" />
+
+        <attr name="clockBorderWidth" format="dimension" />
+        <attr name="clockBorderColor" format="color" />
+
+        <attr name="secondHandColor" format="color" />
+        <attr name="secondHandSize" format="dimension" />
+
+        <attr name="minuteHandColor" format="color" />
+        <attr name="minuteHandSize" format="dimension" />
+
+        <attr name="hourHandColor" format="color" />
+        <attr name="hourHandSize" format="dimension" />
+
+
+        <attr name="minuteDotsColor" format="color" />
+        <attr name="minuteDotsSize" format="dimension" />
+
+
+        <attr name="digitColor" format="color" />
+        <attr name="digitSize" format="dimension" />
+    </declare-styleable>
+</resources>

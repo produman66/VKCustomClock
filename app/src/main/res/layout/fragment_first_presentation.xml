@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_4"
+        android:scaleType="center">
+    </ImageView>
+
+
+    <com.example.customclockview.customView.ClockCustom
+        android:id="@+id/clockCustom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:clockBorderWidth="10dp"
+        app:clockColor="@color/beige"
+        app:digitSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </com.example.customclockview.customView.ClockCustom>
+
+    <com.example.customclockview.customView.ClockCustom
+        android:id="@+id/clockCustom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:clockBorderWidth="2dp"
+        app:clockColor="@color/white"
+        app:digitSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:minuteDotsSize="1dp"
+        app:secondHandColor="@color/red">
+    </com.example.customclockview.customView.ClockCustom>
+
+
+    <com.example.customclockview.customView.ClockCustom
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        app:clockBorderWidth="12dp"
+        app:clockColor="@color/beige"
+        app:clockBorderColor="@color/gray"
+        app:digitColor="@color/black"
+        app:digitSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/clockCustom2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:minuteDotsSize="0dp">
+
+    </com.example.customclockview.customView.ClockCustom>
+
+    <com.example.customclockview.customView.ClockCustom
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:clockBorderWidth="2dp"
+        app:clockColor="@color/gray"
+        app:digitSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:secondHandSize="0dp"
+        app:minuteDotsSize="1dp">
+    </com.example.customclockview.customView.ClockCustom>
+
+    <com.example.customclockview.customView.ClockCustom
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        app:clockBorderWidth="12dp"
+        app:clockColor="@color/gray"
+        app:digitColor="@color/black"
+        app:digitSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clockCustom2"
+        app:minuteDotsSize="0dp"
+        app:secondHandSize="50dp"
+        app:minuteHandSize="40dp"
+        app:hourHandSize="30dp">
+
+    </com.example.customclockview.customView.ClockCustom>
+</androidx.constraintlayout.widget.ConstraintLayout>
